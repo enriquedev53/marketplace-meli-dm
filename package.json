@@ -1,0 +1,27 @@
+{
+  "name": "marketplace-meli-dm",
+  "description": "Webcomponent marketplace-meli-dm following open-wc recommendations",
+  "license": "MIT",
+  "author": "marketplace-meli-dm",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./marketplace-meli-dm.js": "./marketplace-meli-dm.js"
+  },
+  "scripts": {
+    "analyze": "cem analyze --litelement",
+    "start": "web-dev-server"
+  },
+  "dependencies": {
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "@custom-elements-manifest/analyzer": "^0.4.17",
+    "@ehh-components/button-default": "git+git@github.com:enriquedev53/button-default.git#master",
+    "@web/dev-server": "^0.1.34"
+  },
+  "customElements": "custom-elements.json"
+}
